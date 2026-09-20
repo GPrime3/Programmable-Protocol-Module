@@ -2,11 +2,11 @@ The first version of this project is intended to be a programmable protocol emul
 
 Requirements
 
-    8 GPIO bidrectional pins
-    16 bit Instruction width
-    256 * 16 Instruction memory
-    4* 32 bit general register
-    8 bit program counter
-    Target clock: 100 MHz
-    Initial FPGA/debug clock: 50 MHz
-    1 validation protocols : SPI, UART, I²C firmware
+1.  8 GPIO bidrectional pins
+2.  16 bit Instruction width
+3.  256 * 16 Instruction memory
+4.   4* 32 bit general register
+5.   8 bit program counter
+6.   Target clock: 100 MHz
+7.   Initial FPGA/debug clock: 50 MHz
+8.   Validation protocols : SPI, UART, I²C firmware
