@@ -10,3 +10,4 @@ Requirements
 6.   Target clock: 100 MHz
 7.   Initial FPGA/debug clock: 50 MHz
 8.   Validation protocols : SPI, UART, I²C firmware
+<img width="503" height="521" alt="V1Flowchart" src="https://github.com/user-attachments/assets/7f747f54-63ef-4650-b797-2dbd2fb127fd" />
