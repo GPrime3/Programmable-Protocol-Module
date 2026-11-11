@@ -211,8 +211,9 @@ def encode_instruction(mnemonic, operands, labels):
             operands[1]
         )
         # ------------------------
-    # Branches
     # ------------------------
+# Branches
+# ------------------------
 
     if mnemonic in BRANCH_CONDITIONS:
 
@@ -224,9 +225,17 @@ def encode_instruction(mnemonic, operands, labels):
 
         target = operands[0]
 
-        # Is it a label?
         if target in labels:
             target = str(labels[target])
+
+        else:
+            try:
+                int(target, 0)
+
+            except ValueError:
+                raise ValueError(
+                    f"Undefined label '{target}'"
+                )
 
         return encode_branch(
             mnemonic,
